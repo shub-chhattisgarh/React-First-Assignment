@@ -2,15 +2,11 @@ import React, {Component} from 'react';
 import './UserInput.css';
 
 class UserInput extends Component{
-    state = {
-        input : "",
-    }
-
 
     render(){
         return (
             <div className='UserInput'>
-                <input type='text' value={this.state.input} placeholder='Enter text here' />
+                <input type='text' value={this.props.value.output[this.props.selected]} placeholder='Enter text here' onChange={this.props.change} />
             </div>
         );
     }

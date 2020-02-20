@@ -4,6 +4,11 @@
     width: 600px;
     text-align: center;
     font-size: 1.2em;
-    margin: 10px auto;
+    margin: 10px 5px;
     padding: 20px;
+    display: inline-block;
+}
+
+.UserOutput p.selected{
+    border: 1px solid red;
 }
