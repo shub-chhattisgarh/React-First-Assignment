@@ -3,7 +3,7 @@ import './UserOutput.css';
 
 const userOutput = props => {
     return (
-        <div>
+        <div className='UserOutput'>
             <p>Paragraph 1</p>
             <p>Paragraph 2</p>
         </div>

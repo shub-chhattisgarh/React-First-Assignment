@@ -9,8 +9,8 @@ class UserInput extends Component{
 
     render(){
         return (
-            <div>
-                <input type='text' value={this.state.input} />
+            <div className='UserInput'>
+                <input type='text' value={this.state.input} placeholder='Enter text here' />
             </div>
         );
     }
